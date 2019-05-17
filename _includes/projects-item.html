@@ -1,0 +1,25 @@
+<div class="item-header">
+    <div class="align-left">
+        <span class="item-title">{{ item.title }}</span><br>
+        <span class="item-subtitle">{{ item.company }}</span>
+        {% if item.url %}
+            <br>
+            <span class="item-link">
+                <a href="{{ item.url }}" target="_blank">{{ item.url-text | default:"Visit website" }}</a>
+            </span>
+        {% endif %}
+    </div>
+    <div class="align-right item-info">
+        <span class="item-subtitle">{{ item.period }}</span><br>
+        <span class="item-subtitle">{{ item.location }}</span>
+    </div>
+    <div style="clear: both;"></div>
+</div>
+
+<div class="item-description">
+    <ul>
+        {% for task in item.description %}
+        <li>{{task}}</li>
+        {% endfor %}
+    </ul>
+</div>

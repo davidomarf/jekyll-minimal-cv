@@ -1,0 +1,8 @@
+- company: Amazon
+  title: I founded Amazon
+  period: 1995-Present
+  location: Washington, USA
+  url-text: Visit project's homepage
+  url: https://amazon.com/
+  description:
+    - Started selling books, and kinda grew from there.
