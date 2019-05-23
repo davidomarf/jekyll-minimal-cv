@@ -1,4 +1,15 @@
 name: John
 surname: Doe
 email: john@john.doe
+positions: >-
+  Web Developer |
+  Data Analyst <br>
+  Software Engineer
 number: 123 456 7890
+social:
+  linkedin: john.doe
+  twitter: john.doe
+  github: john.doe
+  facebook: john.doe
+  website: https://john.doe.com/
+  email: john@john.doe

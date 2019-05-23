@@ -4,10 +4,13 @@
         <div class="name-text">
 
             <h1>{{ author.name }} <em> {{ author.surname }}</em></h1>
-            <p>10 Iroquois St Boston, MA 02120</p>
-            <p><a href="mailto:{{author.email}}">{{ author.email }} </a></p>
-            <p>{{ author.number }}</p>
+            <p> {{ author.positions }} </p>
 
+            {% include social.html %}
+            <p><a href="mailto:{{author.email}}" target="_blank">{{ author.email }} </a></p>
+            <p> {{ author.number }} </p>
+            
+            
         </div>
     </div>
 </div>

@@ -1,0 +1,35 @@
+{% assign social =  site.data.author.social %}
+
+<div class="social-section">
+    {% if social.linkedin %}
+    <div class="social-button">
+        <a target = "_blank" href="https://www.linkedin.com/in/{{ social.linkedin }}"><i class="fab fa-linkedin-in"></i> </a>
+    </div>
+    {% endif %}
+
+    {% if social.github %}
+    <div class="social-button">
+        <a target = "_blank" href="https://www.github.com/{{ social.github }}"><i class="fab fa-github"></i> </a>
+    </div>
+    {% endif %}
+    {% if social.twitter %}
+    <div class="social-button">
+        <a target = "_blank" href="https://www.twitter.com/{{ social.twitter }}"><i class="fab fa-twitter"></i> </a>
+    </div>
+    {% endif %}
+    {% if social.facebook %}
+    <div class="social-button">
+        <a target = "_blank" href="https://www.facebook.com/{{ social.facebook }}"><i class="fab fa-facebook-f"></i></a>
+    </div>
+    {% endif %}
+    {% if social.website %}
+    <div class="social-button">
+        <a target = "_blank" href="{{ social.website }}"><i class="fas fa-home"></i></a>
+    </div>
+    {% endif %}
+    {% if social.email %}
+    <div class="social-button">
+        <a target="_blank" href="mailto:{{ social.email }}"><i class="far fa-envelope"></i></a>
+    </div>
+    {% endif %}
+</div>
