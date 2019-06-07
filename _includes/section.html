@@ -1,7 +1,12 @@
 <section>
     <h1>{{ section | capitalize }}</h1>
-
+    {% if section == "skills" %}
+        <ul class="skill-set">
+    {% endif %}
     {% for item in site.data[section] %}
         {% include {{ section }}-item.html %}
     {% endfor %}
+    {% if section == "skills" %}
+        </ul>
+    {% endif %}
 </section>

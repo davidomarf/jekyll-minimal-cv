@@ -1,23 +1,12 @@
-- title: "Languages"
-  content: [
-    "JavaScript (ES6)",
-    "Python 3",
-    "CSS3",
-    "SASS",
-  ]
-
-- title: "Frameworks"
-  content: [
-    "Gatsby",
-    "NodeJS",
-    "React" ,
-    "Jekyll",
-    "Hugo",
-  ]
-
-- title: "Tools"
-  content: [
-    "Git",
-    "Linux",
-    "Linux",    
-  ]
+[
+  "Mobile Development",
+  "Xamarin",
+  "CSS3",
+  "Adobe Photoshop",
+  "HTML5",
+  "CSS3",
+  "JQUERY",
+  "UI Design",
+  "Company Branding",
+  "Responsive Web Design"
+]
