@@ -1,15 +1,14 @@
-name: John
-surname: Doe
-email: john@john.doe
+name: David Omar
+surname: Flores Chávez
+email: me@davidomar.com
 positions: >-
-  Web Developer |
-  Data Analyst <br>
-  Software Engineer
-number: 123 456 7890
+  Front-end Web Developer <br>
+  Data Visualization
+number: "(+52 1) 55 4963 9038"
 social:
-  linkedin: john.doe
-  twitter: john.doe
-  github: john.doe
-  facebook: john.doe
-  website: https://john.doe.com/
-  email: john@john.doe
+  linkedin: davidomarfch
+  twitter: _dvorff
+  github: davidomarf
+  facebook: 
+  website: https://davidomar.com/
+  # email: me@davidomar.com

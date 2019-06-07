@@ -7,7 +7,11 @@
       place. And I'm explaining it here.
     - Oh, did I mention this other thing I did while working in here? 
       And how such and such skill came handy to solve some problems?
-
+  skills:
+    - HTML 5
+    - SASS
+    - Jekyll
+    - Liquid
 - company: Springfield Nuclear Power Plan
   title: Safety Inspector
   period: 1995 — Present
